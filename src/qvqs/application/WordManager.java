@@ -20,7 +20,7 @@ public class WordManager {
 
 		// lecture du fichier texte
 
-		InputStream in = getClass().getResourceAsStream("/qvqs/resources/dico_fr.txt");
+		InputStream in = getClass().getResourceAsStream("/qvqs/resources/dico_big_fr.txt");
 
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(in))) {
 			String ligne;
